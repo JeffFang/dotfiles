@@ -8,3 +8,6 @@ Install the Homebrew tap:
 
 ## restore
 >brew bundle
+
+# Rime
+>~/Library/Rime
