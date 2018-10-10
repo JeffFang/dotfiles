@@ -1,0 +1,10 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	5
+#@/user_id	fd98bbb1-fe40-4f05-bcc8-32e78f9ea27f
+cheng xu 	程序	c=1 d=1 t=2
+hua 	化	c=1 d=1 t=4
+pei zhi 	配置	c=2 d=1.9802 t=5
+tu xing 	圖形	c=1 d=1 t=3

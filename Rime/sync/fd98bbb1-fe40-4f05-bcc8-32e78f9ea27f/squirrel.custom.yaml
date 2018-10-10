@@ -1,0 +1,8 @@
+patch:
+  style:
+    font_point: 15
+    corner_radius: 5
+    alpha: 0.85
+    color_scheme: starcraft
+    font_face: Helvetica
+    horizontal: true
