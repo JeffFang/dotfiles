@@ -1,0 +1,104 @@
+{
+	"name": "yuml",
+	"displayName": "yUML",
+	"description": "UML diagramming tool based on the yUML syntax",
+	"version": "3.1.2",
+	"icon": "images/yUML.png",
+	"publisher": "JaimeOlivares",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jaime-olivares/vscode-yuml"
+	},
+	"bugs": {
+		"url": "https://github.com/jaime-olivares/vscode-yuml/issues",
+		"email": "jaime_olivares@hotmail.com"
+	},
+	"homepage": "https://github.com/jaime-olivares/vscode-yuml/blob/master/README.md",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets",
+		"Other"
+	],
+	"keywords": [
+		"yuml",
+		"uml",
+		"diagram",
+		"sequence",
+		"markdown"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "yuml",
+				"aliases": [
+					"yUML",
+					"yuml"
+				],
+				"extensions": [
+					".yuml"
+				],
+				"configuration": "./yuml.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "yuml",
+				"scopeName": "source.yuml",
+				"path": "./syntaxes/yuml.tmLanguage"
+			}
+		],
+		"commands": [
+			{
+				"command": "extension.viewYumlDiagram",
+				"title": "View yUML Diagram",
+				"icon": {
+					"light": "./images/preview.svg",
+					"dark": "./images/preview_inverse.svg"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == yuml",
+					"command": "extension.viewYumlDiagram",
+					"group": "navigation"
+				}
+			]
+		},
+		"snippets": [
+			{
+				"language": "yuml",
+				"path": "./snippets/yuml.json"
+			}
+		],
+		"markdown.markdownItPlugins": true
+	},
+	"activationEvents": [
+		"onCommand:extension.viewYumlDiagram"
+	],
+	"main": "./src/extension.js",
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"dependencies": {
+		"jsdom": "^11.11.0",
+		"yuml-diagram": "^1.0.8"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.112",
+		"eslint": "^4.6.1",
+		"mocha": "^2.3.3",
+		"vscode": "^1.1.18"
+	},
+	"__metadata": {
+		"id": "9526458f-f64f-4075-8742-05d43ad399d6",
+		"publisherId": "a939bf7f-f7a7-4e87-8e71-680473eadbd9",
+		"publisherDisplayName": "Jaime Olivares"
+	}
+}
