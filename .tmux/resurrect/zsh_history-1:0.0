@@ -1,0 +1,64 @@
+ga src
+gs
+git commit -m "OMS-7556 set max recurrence=36 for create/commit quote order"
+tig
+gp
+git pull
+gp
+tig
+./ant.sh debug
+cp ~/active/order-management-service/config/dev/service.int.notimer.properties ~/active/order-management-service/config/service.properties
+./ant.sh debug
+ssh jfang1@prod-order-04w.aw.active.tan
+ssh jfang1@prod-order-16w.aw.active.tan
+ssh jfang1@prod-order-23w.aw.active.tan
+ssh jfang1@prod-order-19w.aw.active.tan
+ssh jfang1@prod-order-04w.aw.active.tan
+ssh jfang1@prod-order-03w.aw.active.tan
+ssh jfang1@prod-order-02w.aw.active.tan
+ssh jfang1@prod-order-01w.aw.active.tan
+ssh jfang1@prod-order-19w.aw.active.tan
+ssh jfang1@prod-order-01w.aw.active.tan
+gs
+ga src
+gs
+git commit -m "OMS-7556 unit test for max recurrence validation"
+gs
+git pull
+gp
+./ant.sh test
+./ant.sh coverage
+gs
+ga src
+gs
+git commit -m "OMS-7556 fix unit tests in BillingServiceSOAPEndPointImplTestCase for max recurrences"
+gp
+tig
+./ant.sh coverage
+vi build.xml
+./ant.sh coverage
+git pull
+tig
+tmux
+vi ~/.tmux.conf
+ls -a ~/
+cd ~/.tmux
+ls
+cd resurrect
+ls
+ls restore
+ls restore/pane_contents
+cd ..
+vi ~/.tmux.conf
+source ~/.tmux.conf
+tmux source ~/.tmux.conf
+vi ~/.tmux.conf
+tmux source ~/.tmux.conf
+open .tmux/resurrect
+cd ~/.tmux
+ls
+cd resurrect
+ls -lt
+ln -s tmux_resurrect_2018-05-01T12:58:04.txt last
+rm last
+ln -s tmux_resurrect_2018-05-01T12:58:04.txt last

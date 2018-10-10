@@ -1,0 +1,64 @@
+ga src
+gs
+git commit -m "OMS-7428 code review intermediate checkin"
+gp
+openssl ciphers -v | awk '{print $2}' | sort | uniq
+git pull
+gp
+git checkout OMS-7538
+git pull
+tig
+gp
+tig
+./ant.sh fullclean main test
+tig
+git pull
+tig
+gs
+git stash save --keep-index
+gs
+git stash list
+gs
+git checkout -- .
+gs
+git checkout flex-codegen
+gs
+git reset --soft HEAD^\n
+gs
+tig
+gs
+git checkout -b OMS-7538 master
+gs
+git checkout -b coverage-check master
+gs
+git commit -m "DEV-DRIVEN enable code coverage check with line coverage threshold; add coverage check failonviolation"
+gs
+tig
+gs
+gp
+./ant.sh fullclean main test
+./ant.sh coverage
+git push --set-upstream origin coverage-check
+tig
+./ant.sh test
+vi build.xml
+./ant.sh test
+tig
+git checkout OMS-6890
+git pull
+git checkout OMS-7538
+gs
+git commit -m "OMS-7538 remove OmsTestSuite as not needed"
+gp
+git branch -r 7538
+git branch -r
+git branch -r | grep -i 7538
+ssh jfang1@prod-ledger-01w.aw.active.tan
+ssh jfang1@bastion-01w.aw.dev.activenetwork.com
+ssh jfang1@perf-order-01w.aw.active.tan
+ssh jfang1@perf-order-01w.aw.active.tan
+ssh deploy@perf-order-01w.aw.active.tan
+ssh jfang1@prod-order-01w.aw.active.tan
+ssh deploy@int-order-01w.dev.activenetwork.com
+ssh deploy@int-agency-01w.aw.dev.activenetwork.com
+scp Downloads/start_service.sh deploy@perf-order-01w.aw.active.tan:/opt/active/order-management-service/config/ fc -lLn -64 > '/Users/jfang1/.tmux/resurrect/zsh_history-0:4.1'

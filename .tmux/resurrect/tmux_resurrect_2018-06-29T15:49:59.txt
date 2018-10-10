@@ -1,0 +1,20 @@
+pane	0	0	:oms	0	:-Z	0	:/Users/jfang1/Documents/active/order-management-service	1	zsh	:
+pane	0	0	:oms	0	:-Z	1	:/Users/jfang1/Documents/active/buildtools	0	zsh	:
+pane	0	1	:active	0	:Z	0	:/Users/jfang1/Downloads	0	redis-cli	:redis-cli
+pane	0	1	:active	0	:Z	1	:/Users/jfang1/Documents/active/wiki	1	zsh	:
+pane	0	2	:mq&redis	0	:	0	:/Users/jfang1	0	sh	:/bin/sh /Users/jfang1/Documents/active/mq/bin/imqbrokerd
+pane	0	2	:mq&redis	0	:	1	:/usr/local/var/db/redis	1	redis-server	:zsh
+pane	0	3	:bit	0	:Z	0	:/Users/jfang1/Documents/py/cx/fcoin	1	Python	:python main.py
+pane	0	3	:bit	0	:Z	1	:/Users/jfang1/Documents/py/cx	0	zsh	:
+pane	0	4	:remote	1	:*Z	0	:/Users/jfang1	1	zsh	:
+pane	0	4	:remote	1	:*Z	1	:/Users/jfang1	0	zsh	:
+pane	0	5	:misc	0	:	0	:/Users/jfang1/Downloads	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/Users/jfang1/.tmux/resurrect	1	zsh	:
+window	0	0	0	:-Z	ff39,230x59,0,0{115x59,0,0,1,114x59,116,0,2}
+window	0	1	0	:Z	bff5,230x59,0,0{115x59,0,0,3,114x59,116,0,13}
+window	0	2	0	:	bff1,230x59,0,0{115x59,0,0,4,114x59,116,0,12}
+window	0	3	0	:Z	ff3f,230x59,0,0{115x59,0,0,5,114x59,116,0,6}
+window	0	4	1	:*Z	ff42,230x59,0,0{115x59,0,0,7,114x59,116,0,8}
+window	0	5	0	:	68df,230x59,0,0,10
+window	1	0	1	:*	d166,230x59,0,0,9
+state	0	1

@@ -1,0 +1,64 @@
+python main.py
+j py
+cd cx
+ls
+cd dragon
+ls
+vi constants.py
+tmux ls
+tmux a #0
+tmux ls
+tmux attach -t session #0
+tmux attach -t session 0
+tmux attach
+tmux attach -t 0
+unset TMUX
+tmux attach -t 0
+tmux attatch
+tmux attach
+tmux list
+tmux list-session
+tmux kill-session 1
+tmux kill-session -t 1
+tmux attach
+tmux list-session
+cd ~/active/order-management-service/
+open .
+vi build.xml
+./ant.sh fullclean main
+open target
+open ../address-forms-i18n
+ssh deploy@int-order-02w.aw.dev.activenetwork.com
+source ~/.zshrc
+ssh jfang1@prod-ledger-01w.aw.active.tan
+ssh deploy@int-order-02w.aw.dev.activenetwork.com
+ssh jfang1@prod-order-04w.aw.active.tan
+ssh jfang1@prod-order-16w.aw.active.tan
+ssh jfang1@prod-order-23w.aw.active.tan
+ssh jfang1@prod-order-19w.aw.active.tan
+ssh jfang1@prod-order-04w.aw.active.tan
+ssh jfang1@prod-order-03w.aw.active.tan
+ssh jfang1@prod-order-02w.aw.active.tan
+ssh jfang1@prod-order-01w.aw.active.tan
+ssh jfang1@prod-order-19w.aw.active.tan
+ssh jfang1@prod-order-01w.aw.active.tan
+cd ~/Downloads
+ls
+cd mame0198-64bit
+./mame64
+logspy
+ssh jfang1@prod-order-01w.aw.active.tan
+./mame64
+ssh jfang1@jmeter-01w.aw.active.tan
+ssh deploy@jmeter-01w.aw.active.tan
+ssh jfang1@jmeter-01w.aw.active.tan
+ssh jfang1@perf-order-01w.aw.active.tan
+ssh deploy@perf-order-01w.aw.active.tan
+pwd
+ssh deploy@perf-redis-01w.aw.active.tan
+ssh deploy@bastion-01w.aw.dev.activenetwork.com
+ping bastion-01w.aw.dev.activenetwork.com
+ssh deploy@bastion-01w.aw.dev.activenetwork.com
+ssh deploy@perf-redis-01w.aw.active.tan
+cd ..
+cd ~

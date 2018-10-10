@@ -1,0 +1,64 @@
+cd order-management-service
+gs
+git checkout develop
+gs
+git pull
+git checkout -b OMS-7710 develop
+gs
+./ant.sh coverage codecheck
+open target/coverage-report/index.html
+gs
+ga src/main/java/com/active/services/billing/billingplan/BillingPlanBillingSchedule.java
+ga src/test/java/com/active/services/billing/CreateScheduleMetadataTestCase.java
+ga src/test/java/com/active/services/billing/billingplan/BillingPlanBillingScheduleTestCase.java
+gs
+git commit -m "OMS-7710 set next notify date when initialize billing plan schedule"
+gp
+git push --set-upstream origin OMS-7710
+tig
+cd ../order-management-service-functest
+./gradlew
+which java
+ls -lt /usr/bin/java
+cd /System/Library/Frameworks/JavaVM.framework/Versions/Current
+ls
+cd ..
+ls
+cd ..
+cd Versions
+ls
+cd Current
+ls
+pwd
+cd Frameworks
+ls
+cd ..
+ls
+ls Resources
+cd ..
+pwd
+cd /Library/Java
+ls
+cd JavaVirtualMachines
+ls
+cd jdk1.8.0_144.jdk
+ls
+cd Contents
+ls
+cd Home
+ls
+cd -
+j oms
+gs
+cd ..
+cd order-management-service
+git pull
+git checkout develop
+gs
+git checkout src
+gs
+git checkout OMS-7692 
+git checkout OMS-7692
+git checkout OMS-7639
+git pull
+tmux

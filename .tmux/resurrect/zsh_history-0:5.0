@@ -1,0 +1,64 @@
+python main.py
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49700 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49752 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49772 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49802 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+python main.py
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49840 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49851 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49920 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49936 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49951 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 49968 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+python main.py
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 50123 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 50171 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+git pull
+git checkout develop
+git pull
+gs
+ga *
+git diff
+git diff fcoin/main.py
+gs
+git commit -m "fcoin: update finance;"
+gp
+python main.py
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 58895 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 58927 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+python main.py
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 59153 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+python main.py
+gs
+ga *
+git commit -m "fcoin: more exchange mode"
+gp
+git pull
+git checkout OMS-7658
+./ant.sh coverage codecheck
+gs
+ga *
+gs
+git reset HEAD src/test/java/com/active/services/oms/CacheIntegrationTest.java
+gs
+git commit -m "OMS-7673 OMS-7658 API cache replace agency management service in AgencyAbsorbedFeeProcessor"
+gp
+python main.py
+cd /Users/jfang1/Downloads/mame0198-64bit
+./mame64
+./mame64
+./mame64
+ls /Applications
+cd ..
+mv mame0198-64bit /Applications
+cd /Applications/mame0198-64bit
+ls
+./mame64
+pwd
+vi ~/.zshrc
+source ~/.zshrc
+kof
+cd ~
+tree -d Downloads
+cd Downloads
+ls

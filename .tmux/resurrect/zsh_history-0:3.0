@@ -1,0 +1,64 @@
+pip
+pip list 
+sudo pip install pandas
+pip uninstall numpy
+pip uninstall --ignore-installed numpy 
+pip install --ignore-installed pandas
+sudo pip install --ignore-installed pandas
+pwd
+python main.py
+cd -
+pwd
+ls
+cd fcoin
+ls
+python main.py
+python main.py
+python main.py
+python main.py
+python
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+gs
+ga *
+git commit -m "fcoin: trade summary logging"
+gp
+gs
+ga *
+ls
+gs
+gs
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+gs
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py

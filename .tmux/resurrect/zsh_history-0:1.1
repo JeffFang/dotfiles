@@ -1,0 +1,64 @@
+git pull
+cd ../buildtools
+git pull
+gs
+ga task-tools.xml
+gs
+git reset HEAD .
+gs
+rm jacoco/lib-0.8.1
+rm -rf jacoco/lib-0.8.1
+gs
+git diff task-tools.xml
+ga task-tools.xml
+git checkout -b coverage-includeV2 master
+gs
+ga task-tools.xml
+gs
+git commit -m "DEV-DRIVEN enable coverage report for V2 packages"
+tig
+./ant.sh coverage
+python main.py
+open target/coverage-report/index.html
+gp
+git push --set-upstream origin coverage-includeV2
+git pull
+git checkout OMS-7568
+git pull
+tig
+git checkout OMS-7658
+git pull
+./ant.sh coverage codecheck
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 63471 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+cd /Users/jfang1/Documents/py/cx ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" python /Users/jfang1/.vscode/extensions/ms-python.python-2018.6.0/pythonFiles/PythonTools/visualstudio_py_launcher.py /Users/jfang1/Documents/py/cx 63540 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput /Users/jfang1/Documents/py/cx/fcoin/main.py 
+python main.py
+gs
+ga *
+git commit -m "OMS-7673 OMS-7658 remove API cache"
+gp
+open target/coverage-report/index.html
+ssh deploy@perf-redis-01w.aw.active.tan
+redis-cli
+redisconf
+cd active
+ls
+cd ..
+cd Documents
+ls
+cd active
+ls
+cd wiki
+ls
+gs
+ga redis
+gs
+ga *
+gs
+git commit -m "DEV-DRIVEN init redis folder to record plan/progress/questions/issues"
+gs
+gp
+git pull
+tig
+tree
+gs
+gp

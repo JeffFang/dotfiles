@@ -1,0 +1,64 @@
+git pull
+./ant.sh
+tig
+cd .
+cd ..
+git clone git@gitlab.dev.activenetwork.com:EnterpriseArchitecture/address-forms-i18n.git
+open address-forms-i18n
+cd core-services-api
+tig
+cd ..
+cd endurance-management-service
+git pull
+cd /Library/QuickLook
+open .
+cd -
+git pull
+open ../address-forms-i18n
+cd ..
+cd checkout-service
+git pull
+cd ..
+cd checkout-cui
+git pull
+source ~/.oh-my-zsh/plugins/history-substring-search/history-substring-search.zsh
+cd ~/.oh-my-zsh/plugins
+ls
+ls | grep -i highlight
+ls | grep -i high
+ls | grep -i highlighting
+source ~/.oh-my-zsh/plugins/history-substring-search/history-substring-search.zsh
+source ~/.zshrc
+openssl ciphers -v | awk '{print $2}' | sort | uniq
+cd -
+cd ..
+cd ~/Documents/active
+ls
+git clone git@gitlab.dev.activenetwork.com:PlatformServices/wiki.git
+cd ~/Downloads
+ls
+tar xzf redis-4.0.10.tar.gz
+ls
+cd redis-4.0.10
+make
+brew search redis
+brew info redis
+brew update
+brew install redis
+sudo brew install redis
+brew install redis
+htop
+top
+brew install htop
+htop
+tree
+brew install tree
+tree
+cd ..
+rm -rf redis-4.0.10
+vi ~/.zshrc
+source ~/.zshrc
+top
+redis-cli ping
+redis
+redis-server /usr/local/etc/redis.conf

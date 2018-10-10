@@ -1,0 +1,64 @@
+tp
+gp
+./ant.sh coverage codecheck
+gs
+ga *
+git commit -m "OMS-7675 OMS-7658 test - rename ProductDataValidatorTest"
+gp
+tig
+git merge develop
+gp
+gcp
+which gcp
+vi ~/.zshrc
+git checkout develop
+git pull
+git merge OMS-7658-prod
+gs
+git reset HEAD^
+gs
+git reset --hard HEAD^
+gs
+tig
+git reset --hard origin/develop
+gs
+tig
+git checkout OMS-7658-prod
+git pull
+cd ../endurance-management-service
+git pull
+cd ..
+cd event-management-service
+git pull
+git checkout --.
+git checkout -- .
+gs
+git pull
+tig
+cd config
+ls
+vi service.properties
+cd ..
+grep "JmsProcessOrderDestination"
+cd ..
+ls
+git clone git@gitlab.dev.activenetwork.com:ActiveWorks-Camps/camps-session-management-service.git
+cd order-management-service
+./ant.sh coverage
+open target/coverage-report/index.html
+git checkout develop
+git pull
+./ant.sh coverage
+open target/coverage-report/index.html
+git pull
+git checkout OMS-7568
+git pull
+tig
+git checkout OMS-7658
+git pull
+./ant.sh coverage codecheck
+gs
+ga *
+git commit -m "OMS-7673 OMS-7658 remove API cache"
+gp
+open target/coverage-report/index.html

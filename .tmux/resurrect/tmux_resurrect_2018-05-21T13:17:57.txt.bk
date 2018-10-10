@@ -1,0 +1,16 @@
+pane	0	0	:oms	1	:*Z	0	:/Users/jfang1/Documents/active/order-management-service	1	zsh	:
+pane	0	0	:oms	1	:*Z	1	:/Users/jfang1/Documents/active/buildtools	0	zsh	:
+pane	0	1	:active	0	:	0	:/Users/jfang1/.oh-my-zsh/plugins	1	zsh	:
+pane	0	2	:mq	0	:	0	:/Users/jfang1	1	sh	:/bin/sh /Users/jfang1/Documents/active/mq/bin/imqbrokerd
+pane	0	3	:bit	0	:	0	:/Users/jfang1/Documents/py/cx/binance	1	zsh	:
+pane	0	3	:bit	0	:	1	:/Users/jfang1/Documents/py/cx/dragon	0	zsh	:
+pane	0	4	:remote	0	:-Z	0	:/Users/jfang1	1	ssh	:ssh jfang1@prod-order-01w.aw.active.tan
+pane	0	4	:remote	0	:-Z	1	:/Users/jfang1	0	zsh	:
+pane	1	0	:zsh	1	:*	0	:/Users/jfang1	1	zsh	:
+window	0	0	1	:*Z	ff39,230x59,0,0{115x59,0,0,1,114x59,116,0,2}
+window	0	1	0	:	d160,230x59,0,0,3
+window	0	2	0	:	d161,230x59,0,0,4
+window	0	3	0	:	ff3f,230x59,0,0{115x59,0,0,5,114x59,116,0,6}
+window	0	4	0	:-Z	3ff6,230x59,0,0{115x59,0,0,7,114x59,116,0,10}
+window	1	0	1	:*	68e0,230x59,0,0,11
+state	1	
