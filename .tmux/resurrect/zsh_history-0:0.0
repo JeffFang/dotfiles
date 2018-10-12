@@ -1,64 +1,64 @@
-tp
-gp
-./ant.sh coverage codecheck
+ls -la ~
+mv ~/.zshrc ~/.zshrc.bak
+cd ~
+ln -s Documents/dotfiles/.zshrc .zshrc
+ls -la ~
+vi .zshrc
+source ~/.zshrc
+unlink ~/.zshrc
+ls -la ~
+pwd
+ls -n /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
+ls -al
+vi .zshrc
+ln -n /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
+ls -al
+cd Documents/dotfiles
+ls -a
+vi .zshrc
 gs
-ga *
-git commit -m "OMS-7675 OMS-7658 test - rename ProductDataValidatorTest"
-gp
-tig
-git merge develop
-gp
-gcp
-which gcp
-vi ~/.zshrc
-git checkout develop
-git pull
-git merge OMS-7658-prod
-gs
-git reset HEAD^
-gs
-git reset --hard HEAD^
-gs
-tig
-git reset --hard origin/develop
-gs
-tig
-git checkout OMS-7658-prod
-git pull
-cd ../endurance-management-service
-git pull
-cd ..
-cd event-management-service
-git pull
-git checkout --.
+git status
 git checkout -- .
+git status
+ln -s /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
+vi .zshrc
+source .zshrc
 gs
-git pull
-tig
-cd config
-ls
-vi service.properties
-cd ..
-grep "JmsProcessOrderDestination"
-cd ..
-ls
-git clone git@gitlab.dev.activenetwork.com:ActiveWorks-Camps/camps-session-management-service.git
-cd order-management-service
-./ant.sh coverage
-open target/coverage-report/index.html
-git checkout develop
-git pull
-./ant.sh coverage
-open target/coverage-report/index.html
-git pull
-git checkout OMS-7568
-git pull
-tig
-git checkout OMS-7658
-git pull
-./ant.sh coverage codecheck
+ln -s /Users/jfang1/.tmux.conf /Users/jfang1/Documents/dotfiles/.tmux.conf
+source .tmux.conf
+tmux
+./ant.sh
+ping 8.8.8.8
+source ~/.zshrc.bak
+source ~/.zshrc
+ls -lt
+ls -lat
 gs
-ga *
-git commit -m "OMS-7673 OMS-7658 remove API cache"
-gp
-open target/coverage-report/index.html
+which gs
+vi .zshrc
+cd ~
+ls -la
+ln -s /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
+ls -a
+ln -s /Users/jfang1/Documents/dotfiles/.zshrc /Users/jfang1/.zshrc
+ls -la
+source .zshrc
+ln -s /Users/jfang1/Documents/dotfiles/.tmux.conf /Users/jfang1/.tmux.conf
+source-file .tmux.conf
+tmux
+ls
+ln -s /Users/jfang1/Documents/dotfiles/.tmux /Users/jfang1/.tmux
+source-file
+exit
+vi ~/.tmux.conf
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+vi ~/.tmux.conf
+tmux source ~/.tmux.conf
+cd .tmux
+ls
+ls plugins
+cd ..
+run-shell
+.tmux/resurrect/
+ls

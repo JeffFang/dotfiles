@@ -1,64 +1,64 @@
-ga src
+ln -s /Users/jfang1/.tmux.conf /Users/jfang1/Documents/dotfiles/.tmux.conf
+source .tmux.conf
+tmux
+./ant.sh
+ping 8.8.8.8
+source ~/.zshrc.bak
+source ~/.zshrc
+ls -lt
+ls -lat
 gs
-git commit -m "OMS-7556 set max recurrence=36 for create/commit quote order"
-tig
-gp
+which gs
+vi .zshrc
+cd ~
+ls -la
+ln -s /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
+ls -a
+ln -s /Users/jfang1/Documents/dotfiles/.zshrc /Users/jfang1/.zshrc
+ls -la
+source .zshrc
+ln -s /Users/jfang1/Documents/dotfiles/.tmux.conf /Users/jfang1/.tmux.conf
+source-file .tmux.conf
+tmux
+ls
+ln -s /Users/jfang1/Documents/dotfiles/.tmux /Users/jfang1/.tmux
+source-file
+exit
+vi ~/.tmux.conf
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+vi ~/.tmux.conf
+tmux source ~/.tmux.conf
+cd .tmux
+ls
+ls plugins
+cd ..
+run-shell
+.tmux/resurrect/
+ls
+mv ~/Downloads/cache.zip ~/.ivy2
+open ~/.ivy2
+j oms
+cd Documents/active
+cd order-management-service
+./ant.sh
 git pull
-gp
-tig
-./ant.sh debug
-cp ~/active/order-management-service/config/dev/service.int.notimer.properties ~/active/order-management-service/config/service.properties
-./ant.sh debug
-ssh jfang1@prod-order-04w.aw.active.tan
-ssh jfang1@prod-order-16w.aw.active.tan
-ssh jfang1@prod-order-23w.aw.active.tan
-ssh jfang1@prod-order-19w.aw.active.tan
-ssh jfang1@prod-order-04w.aw.active.tan
-ssh jfang1@prod-order-03w.aw.active.tan
-ssh jfang1@prod-order-02w.aw.active.tan
-ssh jfang1@prod-order-01w.aw.active.tan
-ssh jfang1@prod-order-19w.aw.active.tan
-ssh jfang1@prod-order-01w.aw.active.tan
 gs
-ga src
-gs
-git commit -m "OMS-7556 unit test for max recurrence validation"
+git checkout --.
+gc --.
+gc -- .
 gs
 git pull
-gp
-./ant.sh test
-./ant.sh coverage
-gs
-ga src
-gs
-git commit -m "OMS-7556 fix unit tests in BillingServiceSOAPEndPointImplTestCase for max recurrences"
-gp
-tig
-./ant.sh coverage
-vi build.xml
-./ant.sh coverage
-git pull
-tig
 tmux
 vi ~/.tmux.conf
-ls -a ~/
-cd ~/.tmux
-ls
-cd resurrect
-ls
-ls restore
-ls restore/pane_contents
-cd ..
-vi ~/.tmux.conf
-source ~/.tmux.conf
+source-file
 tmux source ~/.tmux.conf
+cd ~
+cd Documents/dotfiles/.tmux
+open .
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ls
+ls plugins
 vi ~/.tmux.conf
 tmux source ~/.tmux.conf
-open .tmux/resurrect
-cd ~/.tmux
-ls
-cd resurrect
-ls -lt
-ln -s tmux_resurrect_2018-05-01T12:58:04.txt last
-rm last
-ln -s tmux_resurrect_2018-05-01T12:58:04.txt last
+vi ~/.tmux.conf
