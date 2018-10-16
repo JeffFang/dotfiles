@@ -54,3 +54,7 @@ XMind
 
 # Quick Look plugins
 >brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+
+# enable fzf key binding
+>/usr/local/opt/fzf/install
+>source ~/.zshrc

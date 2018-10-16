@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search extract)
+plugins=(git history-substring-search extract fzf-zsh)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -98,6 +98,9 @@ alias preview="fzf --preview 'bat --color \"always\" {}'"
 alias cat="bat"
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias ping="prettyping"
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
