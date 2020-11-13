@@ -1,0 +1,20 @@
+pane	0	0	:zsh	0	:-Z	0	:/Users/jfang1/Documents/active/new-email-service	1	zsh	:
+pane	0	0	:zsh	0	:-Z	1	:/Users/jfang1/Documents/active/buildtools	0	zsh	:
+pane	0	1	:active	0	:Z	0	:/Users/jfang1/Downloads	0	zsh	:
+pane	0	1	:active	0	:Z	1	:/Users/jfang1/Documents/active/wiki	1	zsh	:
+pane	0	2	:mw	1	:*Z	0	:/Users/jfang1	1	mongod	:mongod
+pane	0	2	:mw	1	:*Z	1	:/usr/local/var/db/redis	0	zsh	:
+pane	0	3	:bit	0	:Z	0	:/Users/jfang1/Documents/py/cx/fcoin	1	zsh	:
+pane	0	3	:bit	0	:Z	1	:/Users/jfang1/Documents/py/cx	0	zsh	:
+pane	0	4	:remote	0	:Z	0	:/Users/jfang1	1	zsh	:
+pane	0	4	:remote	0	:Z	1	:/Users/jfang1	0	zsh	:
+pane	0	5	:misc	0	:	0	:/Users/jfang1/Downloads	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/Users/jfang1/Documents/dotfiles/.tmux/resurrect	1	zsh	:
+window	0	0	0	:-Z	592a,238x59,0,0{120x59,0,0,1,117x59,121,0,2}
+window	0	1	0	:Z	592d,238x59,0,0{120x59,0,0,3,117x59,121,0,4}
+window	0	2	1	:*Z	5930,238x59,0,0{120x59,0,0,5,117x59,121,0,6}
+window	0	3	0	:Z	5933,238x59,0,0{120x59,0,0,7,117x59,121,0,8}
+window	0	4	0	:Z	6cef,238x59,0,0{120x59,0,0,9,117x59,121,0,10}
+window	0	5	0	:	6ae0,238x59,0,0,11
+window	1	0	1	:*	6921,231x59,0,0,12
+state	0	1

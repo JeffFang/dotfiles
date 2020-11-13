@@ -1,33 +1,3 @@
-ls -la ~
-mv ~/.zshrc ~/.zshrc.bak
-cd ~
-ln -s Documents/dotfiles/.zshrc .zshrc
-ls -la ~
-vi .zshrc
-source ~/.zshrc
-unlink ~/.zshrc
-ls -la ~
-pwd
-ls -n /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
-ls -al
-vi .zshrc
-ln -n /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
-ls -al
-cd Documents/dotfiles
-ls -a
-vi .zshrc
-gs
-git status
-git checkout -- .
-git status
-ln -s /Users/jfang1/.zshrc /Users/jfang1/Documents/dotfiles/.zshrc
-vi .zshrc
-source .zshrc
-gs
-ln -s /Users/jfang1/.tmux.conf /Users/jfang1/Documents/dotfiles/.tmux.conf
-source .tmux.conf
-tmux
-./ant.sh
 ping 8.8.8.8
 source ~/.zshrc.bak
 source ~/.zshrc
@@ -62,3 +32,33 @@ cd ..
 run-shell
 .tmux/resurrect/
 ls
+git pull
+cd ..
+cd new-email-service
+git pull
+tig
+gc -
+git pull
+tig
+cd ..
+git clone https://github.com/cloudera/kafka-examples.git
+cd new-email-service
+gs
+git pull
+gc -
+git pull
+git branch -r
+git branch -a
+git branch -r
+git branch -d jeff
+git branch -d es
+gp
+git branch -r
+kgit push origin --delete jeff
+git push origin --delete jeff
+git branch -r
+git branch -d es
+git pull
+git push origin --delete es
+git branch -r
+git pull

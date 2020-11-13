@@ -1,64 +1,64 @@
-cd order-management-service
 gs
-git checkout develop
+ga *
 gs
-git pull
-git checkout -b OMS-7710 develop
-gs
-./ant.sh coverage codecheck
-open target/coverage-report/index.html
-gs
-ga src/main/java/com/active/services/billing/billingplan/BillingPlanBillingSchedule.java
-ga src/test/java/com/active/services/billing/CreateScheduleMetadataTestCase.java
-ga src/test/java/com/active/services/billing/billingplan/BillingPlanBillingScheduleTestCase.java
-gs
-git commit -m "OMS-7710 set next notify date when initialize billing plan schedule"
+git commit -m "fix npe when renew"
 gp
-git push --set-upstream origin OMS-7710
-tig
-cd ../order-management-service-functest
-./gradlew
-which java
-ls -lt /usr/bin/java
-cd /System/Library/Frameworks/JavaVM.framework/Versions/Current
-ls
-cd ..
-ls
-cd ..
-cd Versions
-ls
-cd Current
-ls
-pwd
-cd Frameworks
-ls
-cd ..
-ls
-ls Resources
-cd ..
-pwd
-cd /Library/Java
-ls
-cd JavaVirtualMachines
-ls
-cd jdk1.8.0_144.jdk
-ls
-cd Contents
-ls
-cd Home
-ls
-cd -
-j oms
 gs
-cd ..
-cd order-management-service
+ga *
+gs
+git commit -m "rename generate to retrieveOrRefresh to be more generic; remove expire soon, instead, handled it when renew fail"
+gp
+gs
+git diff
+gs
 git pull
-git checkout develop
+ga *
 gs
-git checkout src
+git commit -m "remove renewing check as rewnew cannot be skipped in extreme case when instance id to be renewed already taken"
+gp
 gs
-git checkout OMS-7692 
-git checkout OMS-7692
-git checkout OMS-7639
-git pull
+ga *
+gs
+git commit -m "adjust instance id generator log"
+gp
+./gradlew clean build
+open file:///Users/jfang1/Documents/active/inventory-service/app/build/reports/tests/test/index.html
+./gradlew clean build
+open file:///Users/jfang1/Documents/active/inventory-service/app/build/reports/tests/test/index.html
+./gradlew clean build
+gs
+ga *
+gs
+git commit -m "LC 384 shuffle an array"
+gp
+gs
+ga *
+gs
+git commit -m "LC 384 shuffle an array"
+gp
+./gradlew clean build
+gradle clean test -PmaxParallelForks=1
+./gradlew clean build
+./gradlew test --tests MiscReservationProcessorIntegrationTest
+./gradlew test --tests InventoryDaoRealDBIntegrationTest
+./gradlew test --tests BatchReservationProcessorIntegrationTest
+./gradlew test --tests BatchReservationProcessorIntegrationTest --scan
+./gradlew test --tests BatchReservationProcessorIntegrationTest.testSingleBatchReservation
+./gradlew test --tests BatchReservationProcessorIntegrationTest.testSingleBatchReservation --scan
+./gradlew test --tests BatchReservationProcessorIntegrationTest.testSingleBatchReservation --stacktrace
+gs
+ga *
+gs
+git commit -m "LC 142 linked list cycle ii"
+gp
+gs
+ga *
+gs
+git commit -m "LC 287 find the duplicate number"
+gp
+gs
+ga *
+gs
+git commit -m "LC 328 odd even linked list"
+gp
 tmux

@@ -1,64 +1,64 @@
-pip
-pip list 
-sudo pip install pandas
-pip uninstall numpy
-pip uninstall --ignore-installed numpy 
-pip install --ignore-installed pandas
-sudo pip install --ignore-installed pandas
-pwd
-python main.py
-cd -
-pwd
-ls
-cd fcoin
-ls
-python main.py
-python main.py
-python main.py
-python main.py
-python
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
+ga *
+git commit -m "lombokize ..."
+gp
+ssh deploy@qa-order-01w.aw.dev.activenetwork.com
+git pull
+gc -
+git pull
+gc -
+./gradlew bootRun
 gs
 ga *
-git commit -m "fcoin: trade summary logging"
+gs
+git commit -m "WIP: add kafka jsonser/deser;"
+gp
+vi /Applications/IntelliJ IDEA.app/Contents/bin/idea.vmoptions
+vi /Applications/IntelliJ\ IDEA\ CE.app/Contents/bin/idea.vmoptions
+gs
+tmux
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:0.0'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:0.1'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:1.1'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:3.1'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:4.0'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:4.1'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-0:5.0'; clear
+fc -R '/Users/jfang1/.tmux/resurrect/zsh_history-1:0.0'; clear
+cd ..
+cd new-email-service
+gs
+tig
+gc -
+gc -- .
+gs
+git pull
+gc -
+git pull
+gs
+git pull
+gc daniel
+git pull
+tig
+gc -
+cd ..
+cd order-management-service
+git pull
+gc -
+git pull
+cd ..
+cd foundation-user-service
+git pull
+tig
+tmux
+cd ~/Documents/active/leetcode
+git pull
+gs
+ga *
+gs
+git commit -m "LC 148 sort list"
 gp
 gs
 ga *
-ls
 gs
-gs
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-gs
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
-python main.py
+git commit -m "LC 138 copy list with random pointer"
+gp
