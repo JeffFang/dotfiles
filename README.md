@@ -15,17 +15,14 @@ Install the Homebrew tap:
 # Apps
 ```
 1Password
-Alfred 3
+LastPass
+Alfred 4
 AppCleaner
-Caffeine/Amphetamine
+Amphetamine
 Dropbox
-Evernote
-Feedly
-Flux
+OneNote
 Google Chrome
 HandBrake
-HandShaker
-Horos
 iTerm
 Itsycal
 JD-GUI
@@ -35,21 +32,19 @@ Memory Clean 2
 mpv
 MSG Viewer for Outlook
 Noizio
-Pocket
 Pulse Secure
-QQ
-Sequel Pro
-ShadowsocksX-NG
 SoapUI
 Spectacle
-Spotify
-SQL Operations Studio
+Azure data studio
 Thunder
 Vanilla
 Visual Studio Code
 VisualVM
 Wechat
 XMind
+Pomodoro
+Hidden Bar
+Mounty
 ```
 
 # Quick Look plugins
