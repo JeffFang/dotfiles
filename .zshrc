@@ -8,6 +8,7 @@ export ZSH=/Users/jfang1/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +52,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search extract fzf-zsh)
+plugins=(git history-substring-search extract fzf-zsh zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,6 +100,11 @@ alias cat="bat"
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias ping="prettyping"
 alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias kafka_clear="rm -rf /usr/local/var/lib/kafka-logs"
+alias k=kubectl
+alias h=helm
+alias tg=terragrunt
+alias tf=terraform
 
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
