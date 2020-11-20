@@ -15,14 +15,18 @@ Install the Homebrew tap:
 # Apps
 ```
 1Password
-LastPass
+Azure data studio
 Alfred 4
 AppCleaner
 Amphetamine
+LastPass
 Dropbox
+Draw.io
 OneNote
 Google Chrome
+Hidden Bar
 HandBrake
+JustFocus
 iTerm
 Itsycal
 JD-GUI
@@ -33,17 +37,16 @@ mpv
 MSG Viewer for Outlook
 Noizio
 Pulse Secure
+Postman
 SoapUI
 Spectacle
-Azure data studio
+The Unarchiver
 Thunder
 Vanilla
 Visual Studio Code
 VisualVM
 Wechat
 XMind
-Pomodoro
-Hidden Bar
 Mounty
 ```
 
